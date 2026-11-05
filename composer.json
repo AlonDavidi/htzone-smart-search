@@ -1,0 +1,14 @@
+{
+    "name": "alon/htzone-smart-search",
+    "description": "Smart Hebrew/English product search over a catalog (PHP + PostgreSQL)",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo_pgsql": "*",
+        "ext-mbstring": "*",
+        "ext-intl": "*"
+    },
+    "autoload": {
+        "psr-4": { "App\\": "src/" }
+    }
+}
