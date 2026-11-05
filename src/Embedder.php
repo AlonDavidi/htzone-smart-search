@@ -13,12 +13,13 @@ final class Embedder
     public function __construct(
         private readonly string $baseUrl,
         private readonly int $timeoutMs = 1500,
+        private readonly string $token = '',
     ) {}
 
     public static function fromEnv(): ?self
     {
         $url = getenv('EMBEDDER_URL');
-        return $url ? new self(rtrim($url, '/')) : null;
+        return $url ? new self(rtrim($url, '/'), token: (string) getenv('EMBEDDER_TOKEN')) : null;
     }
 
     /**
@@ -31,7 +32,10 @@ final class Embedder
         curl_setopt_array($ch, [
             CURLOPT_POST           => true,
             CURLOPT_POSTFIELDS     => json_encode(['texts' => $texts, 'kind' => $kind], JSON_UNESCAPED_UNICODE),
-            CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
+            CURLOPT_HTTPHEADER     => array_filter([
+                'Content-Type: application/json',
+                $this->token !== '' ? "Authorization: Bearer {$this->token}" : null,
+            ]),
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_CONNECTTIMEOUT_MS => 500,
             CURLOPT_TIMEOUT_MS     => $timeoutMs ?? $this->timeoutMs,

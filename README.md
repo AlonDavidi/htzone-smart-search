@@ -28,6 +28,16 @@ php -S localhost:8080 -t public public/index.php  # http://localhost:8080
 
 Upserts all products in a single transaction, rebuilds the word index used by lexical search, and computes embeddings only for products whose text changed. It is safe to re-run. If the embedding service is unavailable, the load still completes and search runs in lexical-only mode.
 
+## Deployment
+
+| Part | Where | Why |
+|---|---|---|
+| PHP app (`Dockerfile`) | Render (free web service) | deploys from GitHub on push |
+| Embedder (`embedder/Dockerfile`) | Hugging Face Space (Docker, free CPU) | the model needs ~730 MB RAM, more than Render's free 512 MB |
+| PostgreSQL + pgvector | Neon (free) | managed Postgres with pgvector built in |
+
+Environment variables on the app: `DATABASE_URL`, `EMBEDDER_URL`, `EMBEDDER_TOKEN`. The embedder gets the same `EMBEDDER_TOKEN` as a secret, so only the app can call it. The catalog is loaded once by running `php bin/ingest.php` with `DATABASE_URL` pointing at Neon.
+
 ## How it works
 
 ```

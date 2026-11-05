@@ -6,6 +6,7 @@ Usage:  python embedder/download_models.py            # all models
 
 In Docker this runs at build time, so the image ships with the model.
 """
+import os
 import sys
 from pathlib import Path
 
@@ -14,7 +15,7 @@ from huggingface_hub import snapshot_download
 sys.path.insert(0, str(Path(__file__).parent))
 from models import MODELS  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent / "models"
+ROOT = Path(os.getenv("MODELS_DIR", Path(__file__).resolve().parent.parent / "models"))
 
 for key in sys.argv[1:] or MODELS:
     spec = MODELS[key]

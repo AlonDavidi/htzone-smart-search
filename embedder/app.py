@@ -5,15 +5,17 @@ No external API, no keys. The PHP app calls it over HTTP.
   POST /embed  {"texts": [...], "kind": "query" | "passage"}  -> {"vectors": [[...], ...]}
   GET  /health
 
-Env: EMBED_MODEL = minilm (default, chosen by eval) | e5-small
-     MODELS_DIR  = directory with downloaded models (default ../models)
+Env: EMBED_MODEL    = minilm (default, chosen by eval) | e5-small
+     MODELS_DIR     = directory with downloaded models (default ../models)
+     EMBEDDER_TOKEN = optional shared secret; if set, /embed requires
+                      "Authorization: Bearer <token>" (keeps a public deployment private)
 """
 import os
 import sys
 from pathlib import Path
 from typing import Literal
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, Header, HTTPException
 from fastembed import TextEmbedding
 from fastembed.common.model_description import ModelSource, PoolingType
 from pydantic import BaseModel, Field
@@ -22,6 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from models import MODELS  # noqa: E402
 
 MODEL_KEY = os.getenv("EMBED_MODEL", "minilm")
+TOKEN = os.getenv("EMBEDDER_TOKEN", "")
 MODELS_DIR = Path(os.getenv("MODELS_DIR", Path(__file__).resolve().parent.parent / "models"))
 SPEC = MODELS[MODEL_KEY]
 
@@ -45,7 +48,9 @@ class EmbedRequest(BaseModel):
 
 
 @app.post("/embed")
-def embed(req: EmbedRequest) -> dict:
+def embed(req: EmbedRequest, authorization: str = Header(default="")) -> dict:
+    if TOKEN and authorization != f"Bearer {TOKEN}":
+        raise HTTPException(status_code=401, detail="unauthorized")
     prefix = SPEC["prefix"][req.kind]
     try:
         vectors = model.embed([prefix + t for t in req.texts], batch_size=32)

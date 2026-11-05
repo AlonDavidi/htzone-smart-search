@@ -1,0 +1,10 @@
+.git
+.env
+.venv
+vendor
+models
+embedder
+data
+tests
+tools
+*.md
