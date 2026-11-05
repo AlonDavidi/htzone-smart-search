@@ -21,9 +21,15 @@ CREATE TABLE IF NOT EXISTS products (
     updated_at   TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
--- Trigram index: fast fuzzy/partial matching on Hebrew and English text.
+-- Migrations for existing databases (keep idempotent).
+-- name_text = name + brand + aliases: matches here weigh more than in the description.
+ALTER TABLE products ADD COLUMN IF NOT EXISTS name_text TEXT NOT NULL DEFAULT '';
+
+-- Trigram indexes: fast fuzzy/partial matching on Hebrew and English text.
 CREATE INDEX IF NOT EXISTS products_search_trgm
     ON products USING gin (search_text gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS products_name_trgm
+    ON products USING gin (name_text gin_trgm_ops);
 
 -- Cache of query embeddings (the expensive part of a search).
 CREATE TABLE IF NOT EXISTS query_cache (
@@ -31,3 +37,20 @@ CREATE TABLE IF NOT EXISTS query_cache (
     embedding  vector(384) NOT NULL,
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+-- Inverted index for lexical search: every distinct word, and where it appears.
+-- Comparing query words to short vocabulary words is much cheaper than running
+-- trigram similarity over every long description.
+CREATE TABLE IF NOT EXISTS terms (
+    term TEXT PRIMARY KEY
+);
+CREATE INDEX IF NOT EXISTS terms_trgm ON terms USING gin (term gin_trgm_ops);
+
+CREATE TABLE IF NOT EXISTS product_terms (
+    product_id TEXT NOT NULL REFERENCES products(id) ON DELETE CASCADE,
+    term       TEXT NOT NULL,
+    -- 1.0 = in name/brand/aliases, 0.7 = only in category/description
+    weight     REAL NOT NULL,
+    PRIMARY KEY (product_id, term)
+);
+CREATE INDEX IF NOT EXISTS product_terms_term ON product_terms (term);

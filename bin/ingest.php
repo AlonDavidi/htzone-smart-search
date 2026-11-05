@@ -11,6 +11,7 @@ declare(strict_types=1);
  */
 
 require __DIR__ . '/../vendor/autoload.php';
+\App\Env::load(__DIR__ . '/../.env');
 
 use App\Db;
 use App\Normalizer;
@@ -54,9 +55,9 @@ function readCsv(string $path): \Generator
 
 $upsert = $pdo->prepare(<<<'SQL'
     INSERT INTO products (id, name, brand, category, subcategory, description,
-                          attributes, image_url, aliases, search_text, content_hash)
+                          attributes, image_url, aliases, name_text, search_text, content_hash)
     VALUES (:id, :name, :brand, :category, :subcategory, :description,
-            :attributes, :image_url, :aliases, :search_text, :content_hash)
+            :attributes, :image_url, :aliases, :name_text, :search_text, :content_hash)
     ON CONFLICT (id) DO UPDATE SET
         name         = EXCLUDED.name,
         brand        = EXCLUDED.brand,
@@ -66,6 +67,7 @@ $upsert = $pdo->prepare(<<<'SQL'
         attributes   = EXCLUDED.attributes,
         image_url    = EXCLUDED.image_url,
         aliases      = EXCLUDED.aliases,
+        name_text    = EXCLUDED.name_text,
         search_text  = EXCLUDED.search_text,
         embedding    = CASE WHEN products.content_hash = EXCLUDED.content_hash
                             THEN products.embedding END,
@@ -95,11 +97,29 @@ try {
             'attributes'   => json_encode(parseAttributes($row['attributes']), JSON_UNESCAPED_UNICODE),
             'image_url'    => $row['image_url'],
             'aliases'      => '{' . implode(',', array_map(fn($a) => '"' . addcslashes($a, '"\\') . '"', $aliases)) . '}',
+            'name_text'    => Normalizer::normalize($row['name'] . ' ' . ($brand ?? '') . ' ' . implode(' ', $aliases)),
             'search_text'  => $searchText,
             'content_hash' => hash('sha256', $searchText),
         ]);
         $count++;
     }
+
+    // Rebuild the word index from the stored texts (cheap: ~1000 products).
+    $pdo->exec('TRUNCATE product_terms');
+    $pdo->exec(<<<'SQL'
+        INSERT INTO product_terms (product_id, term, weight)
+        SELECT id, term, max(weight)
+        FROM (
+            SELECT id, unnest(string_to_array(name_text, ' ')) AS term, 1.0 AS weight FROM products
+            UNION ALL
+            SELECT id, unnest(string_to_array(search_text, ' ')), 0.7 FROM products
+        ) words
+        WHERE length(term) >= 2
+        GROUP BY id, term
+    SQL);
+    $pdo->exec('TRUNCATE terms CASCADE');
+    $pdo->exec('INSERT INTO terms SELECT DISTINCT term FROM product_terms');
+
     $pdo->commit();
 } catch (\Throwable $e) {
     $pdo->rollBack();

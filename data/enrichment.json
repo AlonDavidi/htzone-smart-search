@@ -1,0 +1,6287 @@
+{
+ "P0001": {
+  "aliases": [
+   "פיליפס",
+   "kitchen appliance"
+  ]
+ },
+ "P0002": {
+  "aliases": [
+   "טפאל",
+   "kitchen appliance"
+  ]
+ },
+ "P0003": {
+  "aliases": [
+   "נינג'ה",
+   "kitchen appliance"
+  ]
+ },
+ "P0004": {
+  "aliases": [
+   "בראון",
+   "kitchen appliance"
+  ]
+ },
+ "P0005": {
+  "aliases": [
+   "קיצ'ן אייד",
+   "kitchen appliance"
+  ]
+ },
+ "P0006": {
+  "aliases": [
+   "קנווד",
+   "kitchen appliance"
+  ]
+ },
+ "P0007": {
+  "aliases": [
+   "בוש",
+   "kitchen appliance"
+  ]
+ },
+ "P0008": {
+  "aliases": [
+   "מולינקס",
+   "kitchen appliance"
+  ]
+ },
+ "P0009": {
+  "aliases": [
+   "ראסל הובס",
+   "kitchen appliance"
+  ]
+ },
+ "P0010": {
+  "aliases": [
+   "ראסל הובס",
+   "kitchen appliance"
+  ]
+ },
+ "P0011": {
+  "aliases": [
+   "טפאל",
+   "kitchen appliance"
+  ]
+ },
+ "P0012": {
+  "aliases": [
+   "נינג'ה",
+   "kitchen appliance"
+  ]
+ },
+ "P0013": {
+  "aliases": [
+   "kitchen appliance"
+  ]
+ },
+ "P0014": {
+  "aliases": [
+   "kitchen appliance"
+  ]
+ },
+ "P0015": {
+  "aliases": [
+   "kitchen appliance"
+  ]
+ },
+ "P0016": {
+  "aliases": [
+   "ראסל הובס",
+   "kitchen appliance"
+  ]
+ },
+ "P0017": {
+  "aliases": [
+   "kitchen appliance"
+  ]
+ },
+ "P0018": {
+  "aliases": [
+   "פיליפס",
+   "kitchen appliance"
+  ]
+ },
+ "P0019": {
+  "aliases": [
+   "טפאל",
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0020": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0021": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0022": {
+  "aliases": [
+   "לה קרוזה",
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0023": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0024": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0025": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0026": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0027": {
+  "aliases": [
+   "טפאל",
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0028": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0029": {
+  "aliases": [
+   "טפאל",
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0030": {
+  "aliases": [
+   "לה קרוזה",
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0031": {
+  "aliases": [
+   "לה קרוזה",
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0032": {
+  "aliases": [
+   "pot",
+   "pan",
+   "cookware"
+  ]
+ },
+ "P0033": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0034": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0035": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0036": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0037": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0038": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0039": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0040": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0041": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0042": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0043": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0044": {
+  "aliases": [
+   "knife",
+   "cutting board"
+  ]
+ },
+ "P0045": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0046": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0047": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0048": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0049": {
+  "aliases": [
+   "לה קרוזה",
+   "baking"
+  ]
+ },
+ "P0050": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0051": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0052": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0053": {
+  "aliases": [
+   "טפאל",
+   "baking"
+  ]
+ },
+ "P0054": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0055": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0056": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0057": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0058": {
+  "aliases": [
+   "baking"
+  ]
+ },
+ "P0059": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0060": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0061": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0062": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0063": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0064": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0065": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0066": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0067": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0068": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0069": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0070": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0071": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0072": {
+  "aliases": [
+   "tableware",
+   "serving"
+  ]
+ },
+ "P0073": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0074": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0075": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0076": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0077": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0078": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0079": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0080": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0081": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0082": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0083": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0084": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0085": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0086": {
+  "aliases": [
+   "food storage",
+   "container"
+  ]
+ },
+ "P0087": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0088": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0089": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0090": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0091": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0092": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0093": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0094": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0095": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0096": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0097": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0098": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0099": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0100": {
+  "aliases": [
+   "kitchen gadget"
+  ]
+ },
+ "P0101": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0102": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0103": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0104": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0105": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0106": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0107": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0108": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0109": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0110": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0111": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0112": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0113": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0114": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0115": {
+  "aliases": [
+   "coffee machine",
+   "espresso"
+  ]
+ },
+ "P0116": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0117": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0118": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0119": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0120": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0121": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0122": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0123": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0124": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0125": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0126": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0127": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0128": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0129": {
+  "aliases": [
+   "coffee accessory"
+  ]
+ },
+ "P0130": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0131": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0132": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0133": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0134": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0135": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0136": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0137": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0138": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0139": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0140": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0141": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0142": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0143": {
+  "aliases": [
+   "coffee beans",
+   "capsules"
+  ]
+ },
+ "P0144": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0145": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0146": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0147": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0148": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0149": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0150": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0151": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0152": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0153": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0154": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0155": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0156": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0157": {
+  "aliases": [
+   "mug",
+   "cup"
+  ]
+ },
+ "P0158": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0159": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0160": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0161": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0162": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0163": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0164": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0165": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0166": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0167": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0168": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0169": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0170": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0171": {
+  "aliases": [
+   "tea"
+  ]
+ },
+ "P0172": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0173": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0174": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0175": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0176": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0177": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0178": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0179": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0180": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0181": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0182": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0183": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0184": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0185": {
+  "aliases": [
+   "wine",
+   "bar"
+  ]
+ },
+ "P0186": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0187": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0188": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0189": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0190": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0191": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0192": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0193": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0194": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0195": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0196": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0197": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0198": {
+  "aliases": [
+   "סודה סטרים",
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0199": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0200": {
+  "aliases": [
+   "gourmet",
+   "gift box"
+  ]
+ },
+ "P0201": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum",
+   "דייסון V15"
+  ]
+ },
+ "P0202": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0203": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0204": {
+  "aliases": [
+   "איירובוט",
+   "רומבה",
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum",
+   "Roomba"
+  ]
+ },
+ "P0205": {
+  "aliases": [
+   "דרים",
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0206": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0207": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0208": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0209": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0210": {
+  "aliases": [
+   "אל ג'י",
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0211": {
+  "aliases": [
+   "אקווקס",
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0212": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0213": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0214": {
+  "aliases": [
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0215": {
+  "aliases": [
+   "דרים",
+   "vacuum",
+   "vacuum cleaner",
+   "robot vacuum"
+  ]
+ },
+ "P0216": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0217": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0218": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0219": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0220": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0221": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0222": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0223": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0224": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0225": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0226": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0227": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0228": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0229": {
+  "aliases": [
+   "mop",
+   "floor cleaner"
+  ]
+ },
+ "P0230": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0231": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0232": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0233": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0234": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0235": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0236": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0237": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0238": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0239": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0240": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0241": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0242": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0243": {
+  "aliases": [
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0244": {
+  "aliases": [
+   "טורנדו",
+   "fan",
+   "heater",
+   "air conditioner"
+  ]
+ },
+ "P0245": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0246": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0247": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0248": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0249": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0250": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0251": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0252": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0253": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0254": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0255": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0256": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0257": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0258": {
+  "aliases": [
+   "air purifier",
+   "humidifier"
+  ]
+ },
+ "P0259": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0260": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0261": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0262": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0263": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0264": {
+  "aliases": [
+   "בראון",
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0265": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0266": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0267": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0268": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0269": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0270": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0271": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0272": {
+  "aliases": [
+   "iron",
+   "steamer"
+  ]
+ },
+ "P0273": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0274": {
+  "aliases": [
+   "אל ג'י",
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0275": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0276": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0277": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0278": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0279": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0280": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0281": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0282": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0283": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0284": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0285": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0286": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0287": {
+  "aliases": [
+   "appliance",
+   "fridge",
+   "washing machine"
+  ]
+ },
+ "P0288": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0289": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0290": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0291": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0292": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0293": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0294": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0295": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0296": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0297": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0298": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0299": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0300": {
+  "aliases": [
+   "smart home"
+  ]
+ },
+ "P0301": {
+  "aliases": [
+   "לנובו",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0302": {
+  "aliases": [
+   "דל",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0303": {
+  "aliases": [
+   "אסוס",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0304": {
+  "aliases": [
+   "אייץ' פי",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0305": {
+  "aliases": [
+   "אפל",
+   "laptop",
+   "tablet",
+   "notebook",
+   "מקבוק"
+  ]
+ },
+ "P0306": {
+  "aliases": [
+   "אפל",
+   "laptop",
+   "tablet",
+   "notebook",
+   "מקבוק"
+  ]
+ },
+ "P0307": {
+  "aliases": [
+   "סמסונג",
+   "laptop",
+   "tablet",
+   "notebook",
+   "Galaxy Tab",
+   "גלקסי טאב"
+  ]
+ },
+ "P0308": {
+  "aliases": [
+   "אפל",
+   "laptop",
+   "tablet",
+   "notebook",
+   "אייפד",
+   "איפד"
+  ]
+ },
+ "P0309": {
+  "aliases": [
+   "לנובו",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0310": {
+  "aliases": [
+   "אייסר",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0311": {
+  "aliases": [
+   "אייץ' פי",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0312": {
+  "aliases": [
+   "לנובו",
+   "laptop",
+   "tablet",
+   "notebook"
+  ]
+ },
+ "P0313": {
+  "aliases": [
+   "מיקרוסופט",
+   "laptop",
+   "tablet",
+   "notebook",
+   "Surface",
+   "סרפס"
+  ]
+ },
+ "P0314": {
+  "aliases": [
+   "אל ג'י",
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0315": {
+  "aliases": [
+   "סמסונג",
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0316": {
+  "aliases": [
+   "אסוס",
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0317": {
+  "aliases": [
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0318": {
+  "aliases": [
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0319": {
+  "aliases": [
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0320": {
+  "aliases": [
+   "דל",
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0321": {
+  "aliases": [
+   "אנקר",
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0322": {
+  "aliases": [
+   "אל ג'י",
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0323": {
+  "aliases": [
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0324": {
+  "aliases": [
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0325": {
+  "aliases": [
+   "דל",
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0326": {
+  "aliases": [
+   "monitor",
+   "screen"
+  ]
+ },
+ "P0327": {
+  "aliases": [
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0328": {
+  "aliases": [
+   "לוג'יטק",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0329": {
+  "aliases": [
+   "לוג'יטק",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0330": {
+  "aliases": [
+   "רייזר",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0331": {
+  "aliases": [
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0332": {
+  "aliases": [
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0333": {
+  "aliases": [
+   "מיקרוסופט",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0334": {
+  "aliases": [
+   "לוג'יטק",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0335": {
+  "aliases": [
+   "רייזר",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0336": {
+  "aliases": [
+   "אייץ' פי",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0337": {
+  "aliases": [
+   "מיקרוסופט",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0338": {
+  "aliases": [
+   "לוג'יטק",
+   "keyboard",
+   "mouse"
+  ]
+ },
+ "P0339": {
+  "aliases": [
+   "לוג'יטק",
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0340": {
+  "aliases": [
+   "לוג'יטק",
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0341": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0342": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0343": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0344": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0345": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0346": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0347": {
+  "aliases": [
+   "לוג'יטק",
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0348": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0349": {
+  "aliases": [
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0350": {
+  "aliases": [
+   "אנקר",
+   "webcam",
+   "headset",
+   "microphone"
+  ]
+ },
+ "P0351": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0352": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0353": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0354": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0355": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0356": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0357": {
+  "aliases": [
+   "שיאומי",
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0358": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0359": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0360": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0361": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0362": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0363": {
+  "aliases": [
+   "ergonomic",
+   "desk",
+   "office chair"
+  ]
+ },
+ "P0364": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0365": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0366": {
+  "aliases": [
+   "router",
+   "storage"
+  ]
+ },
+ "P0367": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0368": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0369": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0370": {
+  "aliases": [
+   "סמסונג",
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0371": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0372": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0373": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0374": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0375": {
+  "aliases": [
+   "router",
+   "storage",
+   "ssd"
+  ]
+ },
+ "P0376": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0377": {
+  "aliases": [
+   "אייץ' פי",
+   "printer",
+   "office"
+  ]
+ },
+ "P0378": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0379": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0380": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0381": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0382": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0383": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0384": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0385": {
+  "aliases": [
+   "קנון",
+   "printer",
+   "office"
+  ]
+ },
+ "P0386": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0387": {
+  "aliases": [
+   "printer",
+   "office"
+  ]
+ },
+ "P0388": {
+  "aliases": [
+   "קנון",
+   "printer",
+   "office"
+  ]
+ },
+ "P0389": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0390": {
+  "aliases": [
+   "סמסונייט",
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0391": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0392": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0393": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0394": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0395": {
+  "aliases": [
+   "סמסונייט",
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0396": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0397": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0398": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0399": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0400": {
+  "aliases": [
+   "laptop bag",
+   "case"
+  ]
+ },
+ "P0401": {
+  "aliases": [
+   "אפל",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "iPhone",
+   "אייפון",
+   "איפון"
+  ]
+ },
+ "P0402": {
+  "aliases": [
+   "סמסונג",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "Galaxy",
+   "גלקסי"
+  ]
+ },
+ "P0403": {
+  "aliases": [
+   "שיאומי",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "Redmi",
+   "רדמי"
+  ]
+ },
+ "P0404": {
+  "aliases": [
+   "גוגל",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "Pixel",
+   "פיקסל"
+  ]
+ },
+ "P0405": {
+  "aliases": [
+   "וואווי",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי"
+  ]
+ },
+ "P0406": {
+  "aliases": [
+   "סמסונג",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "Galaxy",
+   "גלקסי",
+   "Galaxy Fold",
+   "Z Fold",
+   "פולד"
+  ]
+ },
+ "P0407": {
+  "aliases": [
+   "אפל",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "iPhone",
+   "אייפון",
+   "איפון"
+  ]
+ },
+ "P0408": {
+  "aliases": [
+   "שיאומי",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "Redmi",
+   "רדמי"
+  ]
+ },
+ "P0409": {
+  "aliases": [
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי"
+  ]
+ },
+ "P0410": {
+  "aliases": [
+   "סמסונג",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "Galaxy",
+   "גלקסי"
+  ]
+ },
+ "P0411": {
+  "aliases": [
+   "גוגל",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "Pixel",
+   "פיקסל"
+  ]
+ },
+ "P0412": {
+  "aliases": [
+   "וואווי",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי"
+  ]
+ },
+ "P0413": {
+  "aliases": [
+   "אפל",
+   "smartphone",
+   "phone",
+   "mobile",
+   "טלפון",
+   "פלאפון",
+   "סלולרי",
+   "iPhone",
+   "אייפון",
+   "איפון"
+  ]
+ },
+ "P0414": {
+  "aliases": [
+   "סוני",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0415": {
+  "aliases": [
+   "בוז",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0416": {
+  "aliases": [
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0417": {
+  "aliases": [
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0418": {
+  "aliases": [
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0419": {
+  "aliases": [
+   "זנהייזר",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0420": {
+  "aliases": [
+   "ג'יי בי אל",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0421": {
+  "aliases": [
+   "אפל",
+   "headphones",
+   "earbuds",
+   "AirPods",
+   "איירפודס",
+   "אירפודס"
+  ]
+ },
+ "P0422": {
+  "aliases": [
+   "פיליפס",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0423": {
+  "aliases": [
+   "סוני",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0424": {
+  "aliases": [
+   "ביטס",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0425": {
+  "aliases": [
+   "זנהייזר",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0426": {
+  "aliases": [
+   "שיאומי",
+   "headphones",
+   "earbuds"
+  ]
+ },
+ "P0427": {
+  "aliases": [
+   "ג'יי בי אל",
+   "speaker"
+  ]
+ },
+ "P0428": {
+  "aliases": [
+   "speaker"
+  ]
+ },
+ "P0429": {
+  "aliases": [
+   "גוגל",
+   "speaker"
+  ]
+ },
+ "P0430": {
+  "aliases": [
+   "ג'יי בי אל",
+   "speaker"
+  ]
+ },
+ "P0431": {
+  "aliases": [
+   "אנקר",
+   "speaker"
+  ]
+ },
+ "P0432": {
+  "aliases": [
+   "מרשל",
+   "speaker"
+  ]
+ },
+ "P0433": {
+  "aliases": [
+   "speaker"
+  ]
+ },
+ "P0434": {
+  "aliases": [
+   "ג'יי בי אל",
+   "speaker"
+  ]
+ },
+ "P0435": {
+  "aliases": [
+   "אמזון",
+   "speaker"
+  ]
+ },
+ "P0436": {
+  "aliases": [
+   "סוני",
+   "speaker"
+  ]
+ },
+ "P0437": {
+  "aliases": [
+   "speaker"
+  ]
+ },
+ "P0438": {
+  "aliases": [
+   "ג'יי בי אל",
+   "speaker"
+  ]
+ },
+ "P0439": {
+  "aliases": [
+   "אפל",
+   "smartwatch",
+   "fitness tracker",
+   "Apple Watch",
+   "אפל ווטש"
+  ]
+ },
+ "P0440": {
+  "aliases": [
+   "שיאומי",
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0441": {
+  "aliases": [
+   "גרמין",
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0442": {
+  "aliases": [
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0443": {
+  "aliases": [
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0444": {
+  "aliases": [
+   "וואווי",
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0445": {
+  "aliases": [
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0446": {
+  "aliases": [
+   "סמסונג",
+   "smartwatch",
+   "fitness tracker",
+   "Galaxy Watch",
+   "גלקסי ווטש"
+  ]
+ },
+ "P0447": {
+  "aliases": [
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0448": {
+  "aliases": [
+   "גרמין",
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0449": {
+  "aliases": [
+   "וואווי",
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0450": {
+  "aliases": [
+   "smartwatch",
+   "fitness tracker"
+  ]
+ },
+ "P0451": {
+  "aliases": [
+   "אנקר",
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0452": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0453": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0454": {
+  "aliases": [
+   "אנקר",
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0455": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0456": {
+  "aliases": [
+   "אנקר",
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0457": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0458": {
+  "aliases": [
+   "שיאומי",
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0459": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0460": {
+  "aliases": [
+   "אנקר",
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0461": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0462": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0463": {
+  "aliases": [
+   "charger",
+   "power bank"
+  ]
+ },
+ "P0464": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0465": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0466": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0467": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0468": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0469": {
+  "aliases": [
+   "די ג'יי איי",
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0470": {
+  "aliases": [
+   "אפל",
+   "phone case",
+   "phone accessory",
+   "AirTag",
+   "איירטאג"
+  ]
+ },
+ "P0471": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0472": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0473": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0474": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0475": {
+  "aliases": [
+   "די ג'יי איי",
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0476": {
+  "aliases": [
+   "phone case",
+   "phone accessory"
+  ]
+ },
+ "P0477": {
+  "aliases": [
+   "גופרו",
+   "camera",
+   "drone"
+  ]
+ },
+ "P0478": {
+  "aliases": [
+   "camera",
+   "drone"
+  ]
+ },
+ "P0479": {
+  "aliases": [
+   "די ג'יי איי",
+   "camera",
+   "drone"
+  ]
+ },
+ "P0480": {
+  "aliases": [
+   "camera",
+   "drone"
+  ]
+ },
+ "P0481": {
+  "aliases": [
+   "camera",
+   "drone"
+  ]
+ },
+ "P0482": {
+  "aliases": [
+   "camera",
+   "drone"
+  ]
+ },
+ "P0483": {
+  "aliases": [
+   "camera",
+   "drone"
+  ]
+ },
+ "P0484": {
+  "aliases": [
+   "camera",
+   "drone"
+  ]
+ },
+ "P0485": {
+  "aliases": [
+   "די ג'יי איי",
+   "camera",
+   "drone"
+  ]
+ },
+ "P0486": {
+  "aliases": [
+   "camera",
+   "drone"
+  ]
+ },
+ "P0487": {
+  "aliases": [
+   "סוני",
+   "camera",
+   "drone"
+  ]
+ },
+ "P0488": {
+  "aliases": [
+   "די ג'יי איי",
+   "camera",
+   "drone"
+  ]
+ },
+ "P0489": {
+  "aliases": [
+   "אמזון",
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0490": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0491": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0492": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0493": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0494": {
+  "aliases": [
+   "סוני",
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0495": {
+  "aliases": [
+   "אמזון",
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0496": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0497": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0498": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0499": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0500": {
+  "aliases": [
+   "e-reader",
+   "gadget"
+  ]
+ },
+ "P0501": {
+  "aliases": [
+   "סמסונג",
+   "tv",
+   "television"
+  ]
+ },
+ "P0502": {
+  "aliases": [
+   "אל ג'י",
+   "tv",
+   "television"
+  ]
+ },
+ "P0503": {
+  "aliases": [
+   "הייסנס",
+   "television"
+  ]
+ },
+ "P0504": {
+  "aliases": [
+   "טי סי אל",
+   "tv",
+   "television"
+  ]
+ },
+ "P0505": {
+  "aliases": [
+   "סמסונג",
+   "television"
+  ]
+ },
+ "P0506": {
+  "aliases": [
+   "טי סי אל",
+   "tv",
+   "television"
+  ]
+ },
+ "P0507": {
+  "aliases": [
+   "הייסנס",
+   "television"
+  ]
+ },
+ "P0508": {
+  "aliases": [
+   "אל ג'י",
+   "tv",
+   "television"
+  ]
+ },
+ "P0509": {
+  "aliases": [
+   "סוני",
+   "television"
+  ]
+ },
+ "P0510": {
+  "aliases": [
+   "סמסונג",
+   "tv",
+   "television"
+  ]
+ },
+ "P0511": {
+  "aliases": [
+   "סמסונג",
+   "tv",
+   "television"
+  ]
+ },
+ "P0512": {
+  "aliases": [
+   "פיליפס",
+   "tv",
+   "television"
+  ]
+ },
+ "P0513": {
+  "aliases": [
+   "tv",
+   "television"
+  ]
+ },
+ "P0514": {
+  "aliases": [
+   "אפסון",
+   "projector"
+  ]
+ },
+ "P0515": {
+  "aliases": [
+   "projector"
+  ]
+ },
+ "P0516": {
+  "aliases": [
+   "projector"
+  ]
+ },
+ "P0517": {
+  "aliases": [
+   "אנקר",
+   "projector"
+  ]
+ },
+ "P0518": {
+  "aliases": [
+   "אל ג'י",
+   "projector"
+  ]
+ },
+ "P0519": {
+  "aliases": [
+   "projector"
+  ]
+ },
+ "P0520": {
+  "aliases": [
+   "projector"
+  ]
+ },
+ "P0521": {
+  "aliases": [
+   "סמסונג",
+   "projector"
+  ]
+ },
+ "P0522": {
+  "aliases": [
+   "projector"
+  ]
+ },
+ "P0523": {
+  "aliases": [
+   "projector"
+  ]
+ },
+ "P0524": {
+  "aliases": [
+   "אפסון",
+   "projector"
+  ]
+ },
+ "P0525": {
+  "aliases": [
+   "projector"
+  ]
+ },
+ "P0526": {
+  "aliases": [
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0527": {
+  "aliases": [
+   "סמסונג",
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0528": {
+  "aliases": [
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0529": {
+  "aliases": [
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0530": {
+  "aliases": [
+   "ג'יי בי אל",
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0531": {
+  "aliases": [
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0532": {
+  "aliases": [
+   "סוני",
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0533": {
+  "aliases": [
+   "בוז",
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0534": {
+  "aliases": [
+   "מרשל",
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0535": {
+  "aliases": [
+   "אל ג'י",
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0536": {
+  "aliases": [
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0537": {
+  "aliases": [
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0538": {
+  "aliases": [
+   "soundbar",
+   "home theater"
+  ]
+ },
+ "P0539": {
+  "aliases": [
+   "אמזון",
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0540": {
+  "aliases": [
+   "גוגל",
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0541": {
+  "aliases": [
+   "אפל",
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0542": {
+  "aliases": [
+   "streamer"
+  ]
+ },
+ "P0543": {
+  "aliases": [
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0544": {
+  "aliases": [
+   "שיאומי",
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0545": {
+  "aliases": [
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0546": {
+  "aliases": [
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0547": {
+  "aliases": [
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0548": {
+  "aliases": [
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0549": {
+  "aliases": [
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0550": {
+  "aliases": [
+   "streamer",
+   "streaming"
+  ]
+ },
+ "P0551": {
+  "aliases": [
+   "סוני",
+   "gaming",
+   "console",
+   "PlayStation",
+   "PlayStation 5",
+   "פלייסטיישן",
+   "פלייסטיישן 5"
+  ]
+ },
+ "P0552": {
+  "aliases": [
+   "מיקרוסופט",
+   "gaming",
+   "console",
+   "אקסבוקס",
+   "אקס בוקס"
+  ]
+ },
+ "P0553": {
+  "aliases": [
+   "נינטנדו",
+   "gaming",
+   "console",
+   "סוויץ'",
+   "נינטנדו סוויץ'"
+  ]
+ },
+ "P0554": {
+  "aliases": [
+   "סוני",
+   "gaming",
+   "console",
+   "PS5 controller",
+   "שלט פלייסטיישן",
+   "ג'ויסטיק"
+  ]
+ },
+ "P0555": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0556": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0557": {
+  "aliases": [
+   "רייזר",
+   "gaming",
+   "console"
+  ]
+ },
+ "P0558": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0559": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0560": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0561": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0562": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0563": {
+  "aliases": [
+   "gaming",
+   "console"
+  ]
+ },
+ "P0564": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0565": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0566": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0567": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0568": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0569": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0570": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0571": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0572": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0573": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0574": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0575": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0576": {
+  "aliases": [
+   "board game",
+   "puzzle"
+  ]
+ },
+ "P0577": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0578": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0579": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0580": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0581": {
+  "aliases": [
+   "ג'יי בי אל",
+   "musical instrument"
+  ]
+ },
+ "P0582": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0583": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0584": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0585": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0586": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0587": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0588": {
+  "aliases": [
+   "musical instrument"
+  ]
+ },
+ "P0589": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0590": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0591": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0592": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0593": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0594": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0595": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0596": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0597": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0598": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0599": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0600": {
+  "aliases": [
+   "hobby",
+   "crafts"
+  ]
+ },
+ "P0601": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0602": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0603": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0604": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0605": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0606": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0607": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0608": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0609": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0610": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0611": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0612": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0613": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0614": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0615": {
+  "aliases": [
+   "bedding",
+   "sheets",
+   "pillow"
+  ]
+ },
+ "P0616": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0617": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0618": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0619": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0620": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0621": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0622": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0623": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0624": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0625": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0626": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0627": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0628": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0629": {
+  "aliases": [
+   "towels",
+   "textile"
+  ]
+ },
+ "P0630": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0631": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0632": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0633": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0634": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0635": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0636": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0637": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0638": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0639": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0640": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0641": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0642": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0643": {
+  "aliases": [
+   "lighting",
+   "lamp"
+  ]
+ },
+ "P0644": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0645": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0646": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0647": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0648": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0649": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0650": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0651": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0652": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0653": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0654": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0655": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0656": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0657": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0658": {
+  "aliases": [
+   "furniture"
+  ]
+ },
+ "P0659": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0660": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0661": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0662": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0663": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0664": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0665": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0666": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0667": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0668": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0669": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0670": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0671": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0672": {
+  "aliases": [
+   "decor",
+   "home decor"
+  ]
+ },
+ "P0673": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0674": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0675": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0676": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0677": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0678": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0679": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0680": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0681": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0682": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0683": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0684": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0685": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0686": {
+  "aliases": [
+   "storage",
+   "organizer"
+  ]
+ },
+ "P0687": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0688": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0689": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0690": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0691": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0692": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0693": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0694": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0695": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0696": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0697": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0698": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0699": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0700": {
+  "aliases": [
+   "bathroom",
+   "cleaning"
+  ]
+ },
+ "P0701": {
+  "aliases": [
+   "דייסון",
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0702": {
+  "aliases": [
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0703": {
+  "aliases": [
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0704": {
+  "aliases": [
+   "רמינגטון",
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0705": {
+  "aliases": [
+   "פיליפס",
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0706": {
+  "aliases": [
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0707": {
+  "aliases": [
+   "דייסון",
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0708": {
+  "aliases": [
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0709": {
+  "aliases": [
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0710": {
+  "aliases": [
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0711": {
+  "aliases": [
+   "פיליפס",
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0712": {
+  "aliases": [
+   "רמינגטון",
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0713": {
+  "aliases": [
+   "hair dryer",
+   "hair styling"
+  ]
+ },
+ "P0714": {
+  "aliases": [
+   "בראון",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0715": {
+  "aliases": [
+   "פיליפס",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0716": {
+  "aliases": [
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0717": {
+  "aliases": [
+   "בראון",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0718": {
+  "aliases": [
+   "רמינגטון",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0719": {
+  "aliases": [
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0720": {
+  "aliases": [
+   "בראון",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0721": {
+  "aliases": [
+   "פיליפס",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0722": {
+  "aliases": [
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0723": {
+  "aliases": [
+   "רמינגטון",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0724": {
+  "aliases": [
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0725": {
+  "aliases": [
+   "פיליפס",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0726": {
+  "aliases": [
+   "בראון",
+   "shaver",
+   "trimmer",
+   "grooming"
+  ]
+ },
+ "P0727": {
+  "aliases": [
+   "פיליפס",
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0728": {
+  "aliases": [
+   "בראון",
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0729": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0730": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0731": {
+  "aliases": [
+   "רמינגטון",
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0732": {
+  "aliases": [
+   "בראון",
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0733": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0734": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0735": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0736": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0737": {
+  "aliases": [
+   "פיליפס",
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0738": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0739": {
+  "aliases": [
+   "hair removal",
+   "epilator",
+   "skincare"
+  ]
+ },
+ "P0740": {
+  "aliases": [
+   "אורל בי",
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0741": {
+  "aliases": [
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0742": {
+  "aliases": [
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0743": {
+  "aliases": [
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0744": {
+  "aliases": [
+   "אורל בי",
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0745": {
+  "aliases": [
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0746": {
+  "aliases": [
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0747": {
+  "aliases": [
+   "שיאומי",
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0748": {
+  "aliases": [
+   "אורל בי",
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0749": {
+  "aliases": [
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0750": {
+  "aliases": [
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0751": {
+  "aliases": [
+   "אורל בי",
+   "toothbrush",
+   "oral care"
+  ]
+ },
+ "P0752": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0753": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0754": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0755": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0756": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0757": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0758": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0759": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0760": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0761": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0762": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0763": {
+  "aliases": [
+   "perfume",
+   "fragrance"
+  ]
+ },
+ "P0764": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0765": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0766": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0767": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0768": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0769": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0770": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0771": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0772": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0773": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0774": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0775": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0776": {
+  "aliases": [
+   "massage",
+   "massager"
+  ]
+ },
+ "P0777": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0778": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0779": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0780": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0781": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0782": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0783": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0784": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0785": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0786": {
+  "aliases": [
+   "בראון",
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0787": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0788": {
+  "aliases": [
+   "health",
+   "blood pressure",
+   "thermometer"
+  ]
+ },
+ "P0789": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0790": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0791": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0792": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0793": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0794": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0795": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0796": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0797": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0798": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0799": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0800": {
+  "aliases": [
+   "sleep",
+   "relaxation"
+  ]
+ },
+ "P0801": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0802": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0803": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0804": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0805": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0806": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0807": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0808": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0809": {
+  "aliases": [
+   "אדידס",
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0810": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0811": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0812": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0813": {
+  "aliases": [
+   "fitness",
+   "gym"
+  ]
+ },
+ "P0814": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0815": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0816": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0817": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0818": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0819": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0820": {
+  "aliases": [
+   "אדידס",
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0821": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0822": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0823": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0824": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0825": {
+  "aliases": [
+   "yoga",
+   "pilates"
+  ]
+ },
+ "P0826": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0827": {
+  "aliases": [
+   "שיאומי",
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0828": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0829": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0830": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0831": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0832": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0833": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0834": {
+  "aliases": [
+   "גרמין",
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0835": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0836": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0837": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0838": {
+  "aliases": [
+   "bike",
+   "bicycle",
+   "scooter"
+  ]
+ },
+ "P0839": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0840": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0841": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0842": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0843": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0844": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0845": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0846": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0847": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0848": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0849": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0850": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0851": {
+  "aliases": [
+   "camping",
+   "hiking"
+  ]
+ },
+ "P0852": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0853": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0854": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0855": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0856": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0857": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0858": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0859": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0860": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0861": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0862": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0863": {
+  "aliases": [
+   "beach",
+   "pool"
+  ]
+ },
+ "P0864": {
+  "aliases": [
+   "סמסונייט",
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0865": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0866": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0867": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0868": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0869": {
+  "aliases": [
+   "סמסונייט",
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0870": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0871": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0872": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0873": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0874": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0875": {
+  "aliases": [
+   "suitcase",
+   "luggage"
+  ]
+ },
+ "P0876": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0877": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0878": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0879": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0880": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0881": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0882": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0883": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0884": {
+  "aliases": [
+   "סמסונייט",
+   "travel accessory"
+  ]
+ },
+ "P0885": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0886": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0887": {
+  "aliases": [
+   "סמסונייט",
+   "travel accessory"
+  ]
+ },
+ "P0888": {
+  "aliases": [
+   "travel accessory"
+  ]
+ },
+ "P0889": {
+  "aliases": [
+   "סטנלי",
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0890": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0891": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0892": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0893": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0894": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0895": {
+  "aliases": [
+   "סטנלי",
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0896": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0897": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0898": {
+  "aliases": [
+   "נייקי",
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0899": {
+  "aliases": [
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0900": {
+  "aliases": [
+   "סטנלי",
+   "bottle",
+   "thermos"
+  ]
+ },
+ "P0901": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0902": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0903": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0904": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0905": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0906": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0907": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0908": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0909": {
+  "aliases": [
+   "baby"
+  ]
+ },
+ "P0910": {
+  "aliases": [
+   "לגו",
+   "toys"
+  ]
+ },
+ "P0911": {
+  "aliases": [
+   "toys"
+  ]
+ },
+ "P0912": {
+  "aliases": [
+   "toys"
+  ]
+ },
+ "P0913": {
+  "aliases": [
+   "toys"
+  ]
+ },
+ "P0914": {
+  "aliases": [
+   "פליימוביל",
+   "toys"
+  ]
+ },
+ "P0915": {
+  "aliases": [
+   "toys"
+  ]
+ },
+ "P0916": {
+  "aliases": [
+   "toys"
+  ]
+ },
+ "P0917": {
+  "aliases": [
+   "toys"
+  ]
+ },
+ "P0918": {
+  "aliases": [
+   "toys"
+  ]
+ },
+ "P0919": {
+  "aliases": [
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0920": {
+  "aliases": [
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0921": {
+  "aliases": [
+   "לגו",
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0922": {
+  "aliases": [
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0923": {
+  "aliases": [
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0924": {
+  "aliases": [
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0925": {
+  "aliases": [
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0926": {
+  "aliases": [
+   "kids science",
+   "kids crafts"
+  ]
+ },
+ "P0927": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0928": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0929": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0930": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0931": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0932": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0933": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0934": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0935": {
+  "aliases": [
+   "outdoor toys"
+  ]
+ },
+ "P0936": {
+  "aliases": [
+   "dog"
+  ]
+ },
+ "P0937": {
+  "aliases": [
+   "dog"
+  ]
+ },
+ "P0938": {
+  "aliases": [
+   "dog"
+  ]
+ },
+ "P0939": {
+  "aliases": [
+   "גרמין",
+   "dog"
+  ]
+ },
+ "P0940": {
+  "aliases": [
+   "dog"
+  ]
+ },
+ "P0941": {
+  "aliases": [
+   "dog"
+  ]
+ },
+ "P0942": {
+  "aliases": [
+   "cat"
+  ]
+ },
+ "P0943": {
+  "aliases": [
+   "cat"
+  ]
+ },
+ "P0944": {
+  "aliases": [
+   "cat"
+  ]
+ },
+ "P0945": {
+  "aliases": [
+   "cat"
+  ]
+ },
+ "P0946": {
+  "aliases": [
+   "cat"
+  ]
+ },
+ "P0947": {
+  "aliases": [
+   "pet"
+  ]
+ },
+ "P0948": {
+  "aliases": [
+   "pet"
+  ]
+ },
+ "P0949": {
+  "aliases": [
+   "pet"
+  ]
+ },
+ "P0950": {
+  "aliases": [
+   "pet"
+  ]
+ },
+ "P0951": {
+  "aliases": [
+   "וובר",
+   "grill",
+   "bbq"
+  ]
+ },
+ "P0952": {
+  "aliases": [
+   "grill",
+   "bbq"
+  ]
+ },
+ "P0953": {
+  "aliases": [
+   "grill",
+   "bbq"
+  ]
+ },
+ "P0954": {
+  "aliases": [
+   "grill",
+   "bbq"
+  ]
+ },
+ "P0955": {
+  "aliases": [
+   "grill",
+   "bbq"
+  ]
+ },
+ "P0956": {
+  "aliases": [
+   "grill",
+   "bbq"
+  ]
+ },
+ "P0957": {
+  "aliases": [
+   "grill",
+   "bbq"
+  ]
+ },
+ "P0958": {
+  "aliases": [
+   "garden furniture",
+   "outdoor furniture"
+  ]
+ },
+ "P0959": {
+  "aliases": [
+   "garden furniture",
+   "outdoor furniture"
+  ]
+ },
+ "P0960": {
+  "aliases": [
+   "garden furniture",
+   "outdoor furniture"
+  ]
+ },
+ "P0961": {
+  "aliases": [
+   "garden furniture",
+   "outdoor furniture"
+  ]
+ },
+ "P0962": {
+  "aliases": [
+   "garden furniture",
+   "outdoor furniture"
+  ]
+ },
+ "P0963": {
+  "aliases": [
+   "garden furniture",
+   "outdoor furniture"
+  ]
+ },
+ "P0964": {
+  "aliases": [
+   "gardening",
+   "irrigation"
+  ]
+ },
+ "P0965": {
+  "aliases": [
+   "gardening",
+   "irrigation"
+  ]
+ },
+ "P0966": {
+  "aliases": [
+   "gardening",
+   "irrigation"
+  ]
+ },
+ "P0967": {
+  "aliases": [
+   "בוש",
+   "gardening",
+   "irrigation"
+  ]
+ },
+ "P0968": {
+  "aliases": [
+   "gardening",
+   "irrigation"
+  ]
+ },
+ "P0969": {
+  "aliases": [
+   "gardening",
+   "irrigation"
+  ]
+ },
+ "P0970": {
+  "aliases": [
+   "gardening",
+   "irrigation"
+  ]
+ },
+ "P0971": {
+  "aliases": [
+   "מקיטה",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0972": {
+  "aliases": [
+   "סטנלי",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0973": {
+  "aliases": [
+   "בוש",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0974": {
+  "aliases": [
+   "בוש",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0975": {
+  "aliases": [
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0976": {
+  "aliases": [
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0977": {
+  "aliases": [
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0978": {
+  "aliases": [
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0979": {
+  "aliases": [
+   "דיוולט",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0980": {
+  "aliases": [
+   "סטנלי",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0981": {
+  "aliases": [
+   "בוש",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0982": {
+  "aliases": [
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0983": {
+  "aliases": [
+   "מקיטה",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0984": {
+  "aliases": [
+   "דיוולט",
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0985": {
+  "aliases": [
+   "tools",
+   "power tools"
+  ]
+ },
+ "P0986": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0987": {
+  "aliases": [
+   "שיאומי",
+   "car"
+  ]
+ },
+ "P0988": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0989": {
+  "aliases": [
+   "שיאומי",
+   "car"
+  ]
+ },
+ "P0990": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0991": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0992": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0993": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0994": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0995": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0996": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0997": {
+  "aliases": [
+   "שיאומי",
+   "car"
+  ]
+ },
+ "P0998": {
+  "aliases": [
+   "car"
+  ]
+ },
+ "P0999": {
+  "aliases": [
+   "גרמין",
+   "car"
+  ]
+ },
+ "P1000": {
+  "aliases": [
+   "car"
+  ]
+ }
+}
