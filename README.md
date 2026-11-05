@@ -2,7 +2,7 @@
 
 Search over a 1,000-product catalog in Hebrew, English, or a mix of both, by exact name (`iPhone 16`, `אייפון`) or by describing a need (`משהו שיעזור לנקות שערות של כלב מהספה` / "something to get dog hair off the couch").
 
-- **Live site:** `TODO`
+- **Live site:** https://htzone-smart-search.onrender.com (free tier: the first load after idle can take ~30 s while the server wakes up)
 - **Stack:** PHP 8.3 (no framework) · PostgreSQL 16 + pgvector + pg_trgm · a small Python embedding sidecar running a local ONNX model. No external APIs, no keys.
 
 ## Running locally
