@@ -12,7 +12,9 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use App\Db;
 use App\Env;
+use App\Embedder;
 use App\Search\LexicalSearch;
+use App\Search\SemanticSearch;
 use App\Search\SearchService;
 
 Env::load(__DIR__ . '/../.env');
@@ -46,7 +48,12 @@ try {
 
             $started = hrtime(true);
             $pdo = Db::get();
-            $service = new SearchService($pdo, new LexicalSearch($pdo));
+            $embedder = Embedder::fromEnv();
+            $service = new SearchService(
+                $pdo,
+                new LexicalSearch($pdo),
+                $embedder ? new SemanticSearch($pdo, $embedder) : null,
+            );
             $out = $service->search($q);
 
             json_response(200, [

@@ -14,6 +14,7 @@ require __DIR__ . '/../vendor/autoload.php';
 \App\Env::load(__DIR__ . '/../.env');
 
 use App\Db;
+use App\Embedder;
 use App\Normalizer;
 
 $csvPath        = $argv[1] ?? __DIR__ . '/../data/catalog.csv';
@@ -127,5 +128,57 @@ try {
     exit(1);
 }
 
-$pending = (int) $pdo->query('SELECT count(*) FROM products WHERE embedding IS NULL')->fetchColumn();
-echo "Ingested $count products ($pending awaiting embeddings).\n";
+echo "Ingested $count products.\n";
+
+// ---- Embeddings -------------------------------------------------------------
+$embedder = Embedder::fromEnv();
+if ($embedder === null) {
+    echo "EMBEDDER_URL not set: skipping embeddings (search will be lexical only).\n";
+    exit(0);
+}
+try {
+    $model = $embedder->model();
+} catch (\Throwable $e) {
+    fwrite(STDERR, "Embedder not reachable at " . getenv('EMBEDDER_URL') . ": skipping embeddings.\n");
+    exit(0);
+}
+
+// Model changed (or first run)? Vectors from different models are not comparable.
+$stored = $pdo->query("SELECT value FROM meta WHERE key = 'embed_model'")->fetchColumn();
+if ($stored !== $model) {
+    echo "Embedding model: " . ($stored ?: 'none') . " -> $model. Re-embedding everything.\n";
+    $pdo->exec('UPDATE products SET embedding = NULL');
+    $pdo->exec('TRUNCATE query_cache');
+    $pdo->prepare("INSERT INTO meta (key, value) VALUES ('embed_model', ?)
+                   ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value")->execute([$model]);
+}
+
+/** The text the model sees: original (not normalized) wording reads more naturally. */
+function passageText(array $p): string
+{
+    $aliases = trim($p['aliases'], '{}');
+    return sprintf("%s. %s. %s > %s. %s %s",
+        $p['name'], $p['brand'] ?? '', $p['category'], $p['subcategory'], $p['description'],
+        $aliases !== '' ? '(' . str_replace(['"', ','], ['', ', '], $aliases) . ')' : '');
+}
+
+$pending = $pdo->query(
+    'SELECT id, name, brand, category, subcategory, description, aliases::text AS aliases
+     FROM products WHERE embedding IS NULL ORDER BY id'
+)->fetchAll();
+
+$update = $pdo->prepare('UPDATE products SET embedding = CAST(:v AS vector) WHERE id = :id');
+$started = microtime(true);
+foreach (array_chunk($pending, 32) as $batch) {
+    $vectors = $embedder->embed(array_map('passageText', $batch), 'passage', timeoutMs: 120_000);
+    $pdo->beginTransaction();
+    foreach ($batch as $i => $p) {
+        $update->execute(['v' => Embedder::toPg($vectors[$i]), 'id' => $p['id']]);
+    }
+    $pdo->commit();
+    echo '.';
+}
+if ($pending !== []) {
+    $pdo->exec('TRUNCATE query_cache'); // product vectors changed; cached rankings are stale anyway
+}
+printf("\nEmbedded %d products with %s in %.1fs.\n", count($pending), $model, microtime(true) - $started);

@@ -54,3 +54,11 @@ CREATE TABLE IF NOT EXISTS product_terms (
     PRIMARY KEY (product_id, term)
 );
 CREATE INDEX IF NOT EXISTS product_terms_term ON product_terms (term);
+
+-- Which embedding model produced the stored vectors. If it changes, every
+-- vector (and the query cache) must be recomputed: vectors from different
+-- models live in different spaces and cannot be compared.
+CREATE TABLE IF NOT EXISTS meta (
+    key   TEXT PRIMARY KEY,
+    value TEXT NOT NULL
+);

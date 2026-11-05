@@ -1,0 +1,21 @@
+[
+  {"q": "שואב אבק",                                  "type": "exact",  "relevant": {"subcategory": ["שואבי אבק ורובוטים"]}},
+  {"q": "iPhone 16",                                 "type": "exact",  "relevant": {"ids": ["P0401", "P0407", "P0413"]}},
+  {"q": "אייפון",                                    "type": "exact",  "relevant": {"ids": ["P0401", "P0407", "P0413"]}},
+  {"q": "macbook pro",                               "type": "exact",  "relevant": {"ids": ["P0306"]}},
+  {"q": "פלייסטיישן",                                "type": "exact",  "relevant": {"ids": ["P0551", "P0554"]}},
+  {"q": "אייפד",                                     "type": "exact",  "relevant": {"ids": ["P0308"]}},
+  {"q": "vacum",                                     "type": "typo",   "relevant": {"subcategory": ["שואבי אבק ורובוטים"]}},
+  {"q": "טלוויזיה סמסונג",                           "type": "mixed",  "relevant": {"ids": ["P0501", "P0505", "P0510", "P0511"]}},
+  {"q": "Samsung טלויזיה",                           "type": "mixed",  "relevant": {"ids": ["P0501", "P0505", "P0510", "P0511"]}},
+  {"q": "אוזניות bluetooth",                         "type": "mixed",  "relevant": {"subcategory": ["אוזניות"], "name_contains": ["אוזניות"]}},
+  {"q": "laptop לעבודה",                             "type": "mixed",  "relevant": {"subcategory": ["מחשבים ניידים וטאבלטים"]}},
+  {"q": "מתנה למישהו שאוהב לבשל",                    "type": "intent", "relevant": {"category": ["מטבח ובישול"]}},
+  {"q": "משהו שיעזור לנקות שערות של כלב מהספה",       "type": "intent", "relevant": {"ids": ["P0950"], "subcategory": ["שואבי אבק ורובוטים"]}},
+  {"q": "התינוק לא נרדם בלילה",                      "type": "intent", "relevant": {"ids": ["P0789", "P0798", "P0794"], "subcategory": ["ציוד לתינוק", "שינה ורוגע"]}},
+  {"q": "מתנה לחובב ריצה",                           "type": "intent", "relevant": {"ids": ["P0416", "P0424", "P0439", "P0448", "P0898", "P0801"]}},
+  {"q": "יוצאים לטיול שטח עם אוהל",                  "type": "intent", "relevant": {"subcategory": ["קמפינג וטיולים"]}},
+  {"q": "להכין אספרסו בבית",                         "type": "intent", "relevant": {"subcategory": ["מכונות קפה", "אביזרי קפה", "פולי קפה וקפסולות"]}},
+  {"q": "something to keep my coffee hot",           "type": "intent", "relevant": {"subcategory": ["בקבוקים ותרמוסים", "כוסות וספלים"]}},
+  {"q": "xyzqq",                                     "type": "none",   "relevant": {}}
+]
