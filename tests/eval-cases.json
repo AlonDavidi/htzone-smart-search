@@ -17,5 +17,9 @@
   {"q": "יוצאים לטיול שטח עם אוהל",                  "type": "intent", "relevant": {"subcategory": ["קמפינג וטיולים"]}},
   {"q": "להכין אספרסו בבית",                         "type": "intent", "relevant": {"subcategory": ["מכונות קפה", "אביזרי קפה", "פולי קפה וקפסולות"]}},
   {"q": "something to keep my coffee hot",           "type": "intent", "relevant": {"subcategory": ["בקבוקים ותרמוסים", "כוסות וספלים"]}},
+  {"q": "מתנה למישהי",                               "type": "gender", "relevant": {"name_contains": ["לאמא", "לאישה", "לנשים", "נשי", "אמבט ופינוק"]}, "forbidden": {"name_contains": ["לגבר", "גברים", "גברי"]}},
+  {"q": "מתנה לאישה",                                "type": "gender", "relevant": {"name_contains": ["לאמא", "לאישה", "לנשים", "נשי"]}, "forbidden": {"name_contains": ["לגבר", "גברים", "גברי"]}},
+  {"q": "מתנה לגבר",                                 "type": "gender", "relevant": {"name_contains": ["לגבר", "גברים", "גברי"]}, "forbidden": {"name_contains": ["לאמא", "לאישה", "לנשים", "נשי"]}},
+  {"q": "בושם לאשתי",                                "type": "gender", "relevant": {"name_contains": ["לאישה"]}, "forbidden": {"name_contains": ["לגבר"]}},
   {"q": "xyzqq",                                     "type": "none",   "relevant": {}}
 ]

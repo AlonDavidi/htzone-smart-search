@@ -12,6 +12,7 @@ declare(strict_types=1);
  *   P@5    - share of the top 5 that is relevant
  *   MRR    - 1 / rank of the first relevant result
  * "none" cases pass when the search returns nothing.
+ * "forbidden" results (e.g. a men's product for "מתנה למישהי") in the top 5 fail the case.
  */
 
 require __DIR__ . '/../vendor/autoload.php';
@@ -56,6 +57,9 @@ foreach ($cases as $case) {
         || in_array($p['category'], $rel['category'] ?? [], true)
         || array_filter($rel['name_contains'] ?? [], fn($w) => mb_stripos($p['name'], $w) !== false) !== [];
 
+    $forbidden = $case['forbidden']['name_contains'] ?? [];
+    $isForbidden = fn(array $p) => array_filter($forbidden, fn($w) => mb_strpos($p['name'], $w) !== false) !== [];
+
     $top = array_slice($out['results'], 0, 5);
     if ($case['type'] === 'none') {
         $hit = $p5 = $rr = $out['results'] === [] ? 1.0 : 0.0;
@@ -65,6 +69,10 @@ foreach ($cases as $case) {
         $hit = $first === false ? 0.0 : 1.0;
         $p5  = $top === [] ? 0.0 : array_sum($flags) / 5;
         $rr  = $first === false ? 0.0 : 1 / ($first + 1);
+        // A contradicting result in the top 5 (e.g. "לגבר" for "מתנה למישהי") fails the case.
+        if (array_filter($top, $isForbidden) !== []) {
+            $hit = $p5 = $rr = 0.0;
+        }
     }
     foreach (['hit' => $hit, 'p5' => $p5, 'mrr' => $rr] as $k => $v) {
         $totals[$case['type']][$k][] = $v;
@@ -75,7 +83,7 @@ foreach ($cases as $case) {
         $hit ? '✓' : '✗', $p5, $rr, $ms);
     if ($verbose) {
         foreach ($top as $p) {
-            printf("      %s %s %s\n", $isRelevant($p) ? '+' : '-', $p['id'], $p['name']);
+            printf("      %s %s %s\n", $isForbidden($p) ? '!' : ($isRelevant($p) ? '+' : '-'), $p['id'], $p['name']);
         }
     }
 }

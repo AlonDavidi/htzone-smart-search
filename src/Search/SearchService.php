@@ -59,9 +59,10 @@ final class SearchService
             }
         }
 
-        $ids = array_slice($this->fuse($lexical, $semantic), 0, $limit);
+        // Hydrate all fused candidates (<= 100), drop gender contradictions, then cut.
+        $products = GenderIntent::removeContradicting($query, $this->hydrate($this->fuse($lexical, $semantic)));
 
-        return ['results' => $this->hydrate($ids), 'mode' => $mode];
+        return ['results' => array_slice($products, 0, $limit), 'mode' => $mode];
     }
 
     /** Keep semantic hits that are both good in absolute terms and near the best hit. */
