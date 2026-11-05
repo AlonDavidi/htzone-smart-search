@@ -21,5 +21,6 @@
   {"q": "מתנה לאישה",                                "type": "gender", "relevant": {"name_contains": ["לאמא", "לאישה", "לנשים", "נשי"]}, "forbidden": {"name_contains": ["לגבר", "גברים", "גברי"]}},
   {"q": "מתנה לגבר",                                 "type": "gender", "relevant": {"name_contains": ["לגבר", "גברים", "גברי"]}, "forbidden": {"name_contains": ["לאמא", "לאישה", "לנשים", "נשי"]}},
   {"q": "בושם לאשתי",                                "type": "gender", "relevant": {"name_contains": ["לאישה"]}, "forbidden": {"name_contains": ["לגבר"]}},
+  {"q": "מתנה למישהו",                               "type": "gender", "relevant": {"name_contains": ["מתנה", "מארז"]}, "note": "generic 'someone': must NOT be filtered by gender"},
   {"q": "xyzqq",                                     "type": "none",   "relevant": {}}
 ]
