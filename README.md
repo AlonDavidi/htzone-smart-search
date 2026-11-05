@@ -33,7 +33,7 @@ Upserts all products in a single transaction, rebuilds the word index used by le
 | Part | Where | Why |
 |---|---|---|
 | PHP app (`Dockerfile`) | Render (free web service) | deploys from GitHub on push |
-| Embedder (`embedder/Dockerfile`) | Hugging Face Space (Docker, free CPU) | the model needs ~730 MB RAM, more than Render's free 512 MB |
+| Embedder (`embedder/Dockerfile`) | Google Cloud Run (free tier, 1 GB, scales to zero) | the model needs ~660 MB RAM, more than Render's free 512 MB |
 | PostgreSQL + pgvector | Neon (free) | managed Postgres with pgvector built in |
 
 Environment variables on the app: `DATABASE_URL`, `EMBEDDER_URL`, `EMBEDDER_TOKEN`. The embedder gets the same `EMBEDDER_TOKEN` as a secret, so only the app can call it. The catalog is loaded once by running `php bin/ingest.php` with `DATABASE_URL` pointing at Neon.
