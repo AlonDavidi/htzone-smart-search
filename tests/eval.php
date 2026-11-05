@@ -40,6 +40,7 @@ $service = new SearchService(
 $cases = json_decode((string) file_get_contents(__DIR__ . '/eval-cases.json'), true, flags: JSON_THROW_ON_ERROR);
 $totals = [];
 $latencies = [];
+$actualModes = [];
 
 printf("%-42s %-7s %5s %5s %5s %6s\n", 'query', 'type', 'hit@5', 'P@5', 'MRR', 'ms');
 foreach ($cases as $case) {
@@ -47,6 +48,7 @@ foreach ($cases as $case) {
     $out = $service->search($case['q'], 24);
     $ms = (hrtime(true) - $t) / 1e6;
     $latencies[] = $ms;
+    $actualModes[$out['mode']] = ($actualModes[$out['mode']] ?? 0) + 1;
 
     $rel = $case['relevant'];
     $isRelevant = fn(array $p) => in_array($p['id'], $rel['ids'] ?? [], true)
@@ -79,7 +81,10 @@ foreach ($cases as $case) {
 }
 
 $avg = fn(array $xs) => array_sum($xs) / max(count($xs), 1);
-echo "\nmode=$mode\n";
+echo "\nmode=$mode (actually ran: " . json_encode($actualModes) . ")\n";
+if ($mode !== 'lexical' && !isset($actualModes['hybrid'])) {
+    echo "  WARNING: semantic search did not run - check the embedder (php bin/debug-search.php \"test\")\n";
+}
 foreach ($totals as $type => $m) {
     printf("  %-7s n=%-2d hit@5=%.2f  P@5=%.2f  MRR=%.2f\n", $type, count($m['hit']), $avg($m['hit']), $avg($m['p5']), $avg($m['mrr']));
 }

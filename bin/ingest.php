@@ -169,6 +169,8 @@ $pending = $pdo->query(
 
 $update = $pdo->prepare('UPDATE products SET embedding = CAST(:v AS vector) WHERE id = :id');
 $started = microtime(true);
+$done = 0;
+echo 'Embedding ' . count($pending) . " products (~1 min on CPU; safe to interrupt and re-run, finished batches are kept)\n";
 foreach (array_chunk($pending, 32) as $batch) {
     $vectors = $embedder->embed(array_map('passageText', $batch), 'passage', timeoutMs: 120_000);
     $pdo->beginTransaction();
@@ -176,7 +178,8 @@ foreach (array_chunk($pending, 32) as $batch) {
         $update->execute(['v' => Embedder::toPg($vectors[$i]), 'id' => $p['id']]);
     }
     $pdo->commit();
-    echo '.';
+    $done += count($batch);
+    printf("\r  %d/%d", $done, count($pending));
 }
 if ($pending !== []) {
     $pdo->exec('TRUNCATE query_cache'); // product vectors changed; cached rankings are stale anyway

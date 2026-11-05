@@ -19,10 +19,16 @@ final class SearchService
 {
     /** Lexical scores below this are noise (e.g. matching only the word "מתנה"). */
     private const LEXICAL_MIN_SCORE = 0.45;
-    /** Semantic hits must be close to the best semantic hit (scores are query-relative). */
-    private const SEMANTIC_MAX_GAP = 0.06;
-    /** Absolute floor for semantic similarity; below it the query has no real match. */
-    private const SEMANTIC_MIN_SCORE = 0.80;
+    /**
+     * Semantic cutoffs, calibrated per model on tests/eval.php: each model has its own
+     * similarity scale (e5 squeezes everything into 0.78-0.87, MiniLM spreads 0.3-0.6).
+     *   min - absolute floor: below it the query has no real match (gibberish scores here)
+     *   gap - keep only hits within this distance of the best hit
+     */
+    private const SEMANTIC_CUTOFFS = [
+        'e5-small' => ['min' => 0.83, 'gap' => 0.03],
+        'minilm'   => ['min' => 0.42, 'gap' => 0.12],
+    ];
     private const RRF_K = 60;
     /** A lexical match is the more precise signal, so it counts more in the fusion. */
     private const LEXICAL_WEIGHT = 1.5;
@@ -64,7 +70,9 @@ final class SearchService
         if ($hits === []) {
             return [];
         }
-        $cutoff = max(self::SEMANTIC_MIN_SCORE, $hits[0]['score'] - self::SEMANTIC_MAX_GAP);
+        $model = $this->pdo->query("SELECT value FROM meta WHERE key = 'embed_model'")->fetchColumn();
+        $c = self::SEMANTIC_CUTOFFS[$model] ?? throw new \RuntimeException("No cutoffs calibrated for model '$model'");
+        $cutoff = max($c['min'], $hits[0]['score'] - $c['gap']);
         return array_values(array_filter($hits, fn(array $h) => $h['score'] >= $cutoff));
     }
 

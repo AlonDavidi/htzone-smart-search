@@ -5,7 +5,7 @@ No external API, no keys. The PHP app calls it over HTTP.
   POST /embed  {"texts": [...], "kind": "query" | "passage"}  -> {"vectors": [[...], ...]}
   GET  /health
 
-Env: EMBED_MODEL = e5-small (default) | minilm
+Env: EMBED_MODEL = minilm (default, chosen by eval) | e5-small
      MODELS_DIR  = directory with downloaded models (default ../models)
 """
 import os
@@ -21,7 +21,7 @@ from pydantic import BaseModel, Field
 sys.path.insert(0, str(Path(__file__).parent))
 from models import MODELS  # noqa: E402
 
-MODEL_KEY = os.getenv("EMBED_MODEL", "e5-small")
+MODEL_KEY = os.getenv("EMBED_MODEL", "minilm")
 MODELS_DIR = Path(os.getenv("MODELS_DIR", Path(__file__).resolve().parent.parent / "models"))
 SPEC = MODELS[MODEL_KEY]
 
